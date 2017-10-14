@@ -2,13 +2,13 @@
 
 This project covers the process of integrating a simple game made with Unity within a native Android Application.
 
-At the time of this writing, this has been successfully used with **Unity 5.6.3 and** **Android Studio 2.3.3**.
+At the time of this writing, this has been successfully used with **Unity 5.6.3** and **Android Studio 2.3.3**.
 
 Currently, you can run only a **SINGLE** Unity view in your Android application at once. You will also have to establish ways for **Communication / Data Transfer** between Android and Unity.
 
 ### Objective
-1. From Android, **Start the game** and **Send** an initial score to Unity.
-2. **Receive** the score in Unity (sent from Android), **Play the game** and increment the score, then, **Send** the final score back to Android.
+1. From Android App, **Start the game** and **Send** an initial score to Unity.
+2. **Receive** the score in Unity (sent from Android). **Play the game** and increment the score. **Send** the final score back to Android.
 3. **Get** the score from Unity and display it in Android.
 
 ### From Unity
@@ -17,11 +17,11 @@ I have made a simple game using Unity, in which, on clicking the **TAP** button 
 
 ### From Android Studio
 
-I then opened this project using **Android Studio** (Import Gradle Project). You can convert this project into a library (Links are below) or build upon itself. I chose the latter option for this project. Unity creates the class * *UnityPlayerActivity* * for it's player in Android. This class is used for communicationg with Unity. I added more Activities to the Project, to execute the complete flow.
+I then opened this project using **Android Studio** (Import Gradle Project). You can convert this project into a library (Links are below) or build upon itself. I chose the latter option for this project. Unity creates the class *UnityPlayerActivity* for it's *UnityPlayer* in Android. This class is used for communicationg with Unity. I added more Activities to the Project, to execute the complete flow.
 
 ### Resources (What I followed and proved to be very helpful)
 
-#### Detailed process of Embedding Unity into Android
+#### Detailed Guide to Embed Unity into Android
 
 https://medium.com/@davidbeloosesky/embedded-unity-within-android-app-7061f4f473a
 
