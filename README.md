@@ -2,12 +2,15 @@
 
 This project covers the process of integrating a simple game made with Unity within a native Android Application.
 
-At the time of this writing, this has been successfully used with **Unity 5.6.3** and **Android Studio 2.3.3**.
+At the time of this writing, this has been successfully implemented with **Unity 5.6.3** and **Android Studio 2.3.3**.
 
 Currently, you can run only a **SINGLE** Unity view in your Android application at once. You will also have to establish ways for **Communication / Data Transfer** between Android and Unity.
 
 ### Objective
-1. From Android App, **Start the game** and **Send** an initial score to Unity.
+
+Integrate **Unity** within an **Android App**, play the game (made in Unity) within the App, and establish a way for **Communication** / **Data Transfer** between the two, i.e.,
+
+1. From the Android App, **Start the game** and **Send** an initial score to Unity.
 2. **Receive** the score in Unity (sent from Android). **Play the game** and increment the score. **Send** the final score back to Android.
 3. **Get** the score from Unity and display it in Android.
 
