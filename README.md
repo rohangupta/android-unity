@@ -4,8 +4,6 @@ This project covers the process of integrating a simple game made with Unity wit
 
 At the time of this writing, this has been successfully implemented with **Unity 5.6.3** and **Android Studio 2.3.3**.
 
-Currently, you can run only a **SINGLE** Unity view in your Android application at once. You will also have to establish ways for **Communication / Data Transfer** between Android and Unity.
-
 ### Objective
 
 Integrate **Unity** within an **Android App**, play the game (made in Unity) within the App, and establish a way for **Communication** / **Data Transfer** between the two, i.e.,
