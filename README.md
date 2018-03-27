@@ -2,7 +2,7 @@
 
 This project covers the process of integrating a simple game made with Unity within a native Android Application.
 
-![Demo Gif](https://i.imgur.com/PI26MA6.gif)
+<img src="https://i.imgur.com/PI26MA6.gif" width="400px" />
 
 At the time of this writing, this has been successfully implemented with **Unity 5.6.3** and **Android Studio 2.3.3**.
 
