@@ -27,7 +27,7 @@ I then opened this project using **Android Studio** (Import Gradle Project). You
 
 ## Communication / Data Transfer
 
-#### 1. Android (Java) -> Unity (C#)
+### 1. Android (Java) -> Unity (C#)
 
 **In Android**, start the *UnityPlayerActivity* from your Activity with an Intent and add data to this intent using `putExtra`
 ```
@@ -54,7 +54,7 @@ void Start () {
 }
 ```
 
-#### 2. Unity (C#) -> Android (Java)
+### 2. Unity (C#) -> Android (Java)
 
 **In Android**, create a method in *UnityPlayerActivity* to receive data from Unity. This method can be directly called from Unity as shown in the next section
 ``` 
